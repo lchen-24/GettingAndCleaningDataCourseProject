@@ -120,9 +120,26 @@ $(document).ready(function () {
 
 <div id="getting-and-cleaning-data-course-project" class="section level1">
 <h1>Getting And Cleaning Data Course Project</h1>
-<div id="objective" class="section level2">
-<h2>Objective</h2>
-<p>The file <em>run_analytics.R</em> will do the following: 1. Merges the training and the test sets to create one data set. 2. Extracts only the measurements on the mean and standard deviation for each measurement. 3. Uses descriptive activity names to name the activities in the data set 4. Appropriately labels the data set with descriptive variable names. 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</p>
+<div id="run_analytics.r" class="section level2">
+<h2>run_analytics.R</h2>
+<p>The file <strong>run_analytics.R</strong> will do the following:</p>
+<ol style="list-style-type: decimal">
+<li>Download and unzip file if not found</li>
+<li>Merge the training and testing data sets into one</li>
+<li>Select only columns that have to do with mean and standard deviation</li>
+<li>Replaced labels with descriptive activity names</li>
+<li>Appropriately relabels the data set with descriptive variable names</li>
+<li>Takes the average for each variable based on activity and subject</li>
+<li>Creates the file <strong>tidy.txt</strong> once it is done</li>
+</ol>
+</div>
+<div id="code-book" class="section level2">
+<h2>Code Book</h2>
+<p>The code book will contain variable names found in <strong>tidy.txt</strong> with information on how they are created and what do they mean and what are the values they have.</p>
+</div>
+<div id="tidy.txt" class="section level2">
+<h2>tidy.txt</h2>
+<p>This file contains the output once <strong>run_analytics.R</strong> finishes.</p>
 </div>
 </div>
 
